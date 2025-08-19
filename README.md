@@ -74,22 +74,21 @@ Kullanıcı, kartı oluştururken **seviye** seçer; AI **öğrenci dostu** içe
    uvicorn app:app --reload
 
 #### 2) Frontend (React + Vite)
-   ```bash
-   cd frontend
-   npm install
-   npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
-   npm install framer-motion axios
-   npm run dev
 
+      ```bash
+      cd frontend
+      npm install
+      npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+      npm install framer-motion axios
+      npm run dev
 
+### API Endpoint'leri
 
+Aşağıda RecallGenius projesine ait API endpoint'leri listelenmiştir.
 
-
-
-
-
-
-
-
-
-
+| Metot    | Endpoint                | Açıklama                                                                 |
+|----------|-------------------------|--------------------------------------------------------------------------|
+| `POST`   | `/api/text`             | Metin tabanlı özetleme veya içerik üretimi yapar. Body’de `text` alanı gönderilir. |
+| `POST`   | `/api/image`            | Görsel üretimi yapar. Body’de `prompt` parametresi ile görsel isteği gönderilir.   |
+| `POST`   | `/api/pdf`              | Yüklenen PDF dosyasını işler, içerik çıkarır ve özet üretir.                        |
+| `GET`    | `/docs`                 | Swagger arayüzünü açar (API dökümantasyonu).
