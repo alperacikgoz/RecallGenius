@@ -41,3 +41,17 @@ Kullanıcı, kartı oluştururken **seviye** seçer; AI **öğrenci dostu** içe
 
 ### AI Entegrasyonu
 - Google Gemini API  
+
+
+### Kurulum
+
+---
+
+#### 1) Backend (FastAPI)
+
+1. **Klasöre geçin ve sanal ortamı oluşturup aktive edin**
+   ```bash
+   cd backend
+   python -m venv venv
+   # Windows: .\venv\Scripts\activate
+   # macOS/Linux: source venv/bin/activate
