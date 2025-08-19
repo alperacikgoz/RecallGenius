@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+google-generativeai
+python-multipart
+pillow
+openai
+huggingface_hub
+sqlite-utils
+pydantic
+requests
+python-dotenv
+# Diğerleri zaten ekliydi
