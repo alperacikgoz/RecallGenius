@@ -55,3 +55,41 @@ Kullanıcı, kartı oluştururken **seviye** seçer; AI **öğrenci dostu** içe
    python -m venv venv
    # Windows: .\venv\Scripts\activate
    # macOS/Linux: source venv/bin/activate
+
+2. **Gerekli Python paketlerini TEK TEK kurun**
+   ```bash
+   pip install fastapi
+   pip install "uvicorn[standard]"
+   pip install pydantic
+   pip install python-dotenv
+   pip install requests
+   pip install langchain-google-genai
+   pip install google-generativeai
+   pip install pillow
+
+3. **.env dosyasını oluşturun (Gemini anahtarı) Ve API başlatın**
+   ```bash
+   # backend/.env
+   GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
+   uvicorn app:app --reload
+
+#### 2) Frontend (React + Vite)
+   ```bash
+   cd frontend
+   npm install
+   npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+   npm install framer-motion axios
+   npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
