@@ -13,3 +13,31 @@ Kullanıcı, kartı oluştururken **seviye** seçer; AI **öğrenci dostu** içe
 
 <img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/d3af9a1f-a80d-42fb-a3fd-dd992b000cf3" />
 
+## ✨ Özellikler
+
+- 📝 **Flashcard oluşturma** (kavram + seviye seçimi)
+- 🤖 **AI üretimi**: seçilen seviyede kısa ve anlaşılır **açıklama (summary)**
+- 🌍 **Gerçek hayat örneği (example)** üretimi
+- ❓ **Quiz**: tek cümlelik soru ve doğru cevap + **değerlendirme**
+- ⚡ **Anında geri bildirim** (doğru/yanlış + açıklama)
+- 🎨 **Modern arayüz**: React + MUI + Framer Motion
+
+
+## 🛠️ Teknoloji Yığını
+
+### Backend
+- Python 3.10+  
+- FastAPI  
+- Uvicorn  
+- Pydantic  
+- SQLite  
+
+### Frontend
+- React (Vite)  
+- TypeScript  
+- Tailwind CSS  
+- Zustand (state management)  
+- React Router  
+
+### AI Entegrasyonu
+- Google Gemini API  
